@@ -1,10 +1,11 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  margin: 0 5vmin 0 10vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,11 +16,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +36,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.Story-info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.Story-info h2 {
+  margin-top: 2em;
+  margin-right: 10px;
 }
